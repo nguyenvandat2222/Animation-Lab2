@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:layout_height="737dp"
+            android:layout_width="415dp"
+            android:id="@+id/nen"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintVertical_bias="0.0"
+            motion:layout_constraintHorizontal_bias="1.0" />
+        <Constraint
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/chauhoa"
+            motion:layout_constraintEnd_toStartOf="@+id/nen"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="60dp"
+            motion:layout_constraintHorizontal_bias="0.095"
+            android:layout_marginStart="80dp"
+            android:layout_marginEnd="40dp" />
+        <Constraint
+            android:layout_height="wrap_content"
+            motion:layout_editor_absoluteX="70dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/flower"
+            motion:layout_constraintBottom_toBottomOf="@+id/nen"
+            android:layout_marginBottom="208dp" />
+        <Constraint
+            motion:layout_editor_absoluteY="587dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/cam"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintHorizontal_bias="0.507" />
+        <Constraint
+            motion:layout_editor_absoluteY="600dp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/imageView6"
+            motion:layout_constraintEnd_toEndOf="@+id/cam"
+            motion:layout_constraintStart_toStartOf="@+id/cam" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+    </ConstraintSet>
+</MotionScene>

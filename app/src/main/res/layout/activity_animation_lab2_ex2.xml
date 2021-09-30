@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_animation_lab2_ex2_scene"
+    tools:context=".Animation_Lab2_Ex2">
+
+    <ImageView
+        android:id="@+id/nenn"
+        android:layout_width="410dp"
+        android:layout_height="737dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/nen" />
+
+    <ImageView
+        android:id="@+id/chaumot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/chauhai"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chautim"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <ImageView
+        android:id="@+id/chauhai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/chauba"
+        app:srcCompat="@drawable/chauhai"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <ImageView
+        android:id="@+id/chauba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/chaubon"
+        app:srcCompat="@drawable/chauba"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <ImageView
+        android:id="@+id/chaubon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/chaunam"
+        app:srcCompat="@drawable/chaubon"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <ImageView
+        android:id="@+id/chaunam"
+        android:layout_width="109dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/remove_bg"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <ImageView
+        android:id="@+id/lavender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/haimuoinam"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/Lavender"
+        tools:layout_editor_absoluteX="206dp" />
+
+    <ImageView
+        android:id="@+id/haimuoinam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/yellow"
+        app:srcCompat="@drawable/haimuoinam"
+        tools:layout_editor_absoluteX="235dp" />
+
+    <ImageView
+        android:id="@+id/yellow"
+        android:layout_width="64dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/haiba"
+        app:srcCompat="@drawable/Yellow"
+        tools:layout_editor_absoluteX="227dp" />
+
+    <ImageView
+        android:id="@+id/haiba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/lightlavender"
+        app:srcCompat="@drawable/haiba"
+        tools:layout_editor_absoluteX="242dp" />
+
+    <ImageView
+        android:id="@+id/lightlavender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/hainam"
+        app:srcCompat="@drawable/lightlavender"
+        tools:layout_editor_absoluteX="182dp" />
+
+    <ImageView
+        android:id="@+id/hainam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/shortlanvenr"
+        app:srcCompat="@drawable/haimuoinam"
+        tools:layout_editor_absoluteX="242dp" />
+
+    <ImageView
+        android:id="@+id/shortlanvenr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/motam"
+        app:srcCompat="@drawable/shortlavender"
+        tools:layout_editor_absoluteX="182dp" />
+
+    <ImageView
+        android:id="@+id/motam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/shortgreen"
+        app:srcCompat="@drawable/motam"
+        tools:layout_editor_absoluteX="242dp" />
+
+    <ImageView
+        android:id="@+id/shortgreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/bay"
+        app:srcCompat="@drawable/shortgreen"
+        tools:layout_editor_absoluteX="197dp" />
+
+    <ImageView
+        android:id="@+id/bay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/bay"
+        tools:layout_editor_absoluteX="249dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

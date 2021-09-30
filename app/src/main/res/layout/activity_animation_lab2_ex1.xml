@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_animation_lab2_scene"
+    tools:context=".Animation_Lab2_Ex1">
+
+    <ImageView
+        android:id="@+id/nen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/nen"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <ImageView
+        android:id="@+id/chauhoa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/remove_bg"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <ImageView
+        android:id="@+id/flower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/flowersforyourlife"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <ImageView
+        android:id="@+id/cam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rectangle7"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/go"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
